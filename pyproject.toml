@@ -1,0 +1,19 @@
+[project]
+name = "introduction-to-model-context-protocol"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Abhishek Pawar", email = "64072630+abhishekkpawarr@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "mcp[cli]>=2.2.0",
+]
+
+[project.scripts]
+introduction-to-model-context-protocol = "introduction_to_model_context_protocol:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
